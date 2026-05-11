@@ -52,3 +52,7 @@ lib/
 - All data is stored locally via `shared_preferences` (JSON-encoded).
 - Replace `AuthProvider` & `ItemProvider` with Firebase calls to scale up.
 - Image paths are stored as local file paths from `image_picker`.
+
+
+---
+> 🛡️ **Security Status:** Scan Completed ✅ | **Last Audit:** 11-May-2026
