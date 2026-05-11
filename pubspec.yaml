@@ -1,0 +1,27 @@
+name: campus_rescue
+description: Campus Rescue - Lost & Found mini project (Flutter)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.2          # State management
+  image_picker: ^1.1.2      # Pick images from gallery/camera
+  shared_preferences: ^2.2.3 # Local persistence (mock auth + items)
+  url_launcher: ^6.3.0      # Email / WhatsApp deep links
+  intl: ^0.19.0             # Date formatting
+  uuid: ^4.4.0              # Unique IDs
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
